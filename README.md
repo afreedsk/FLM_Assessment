@@ -55,7 +55,7 @@ The application simulates a real-world Edutech platform where users can:
 1. Clone the repository:
    ```bash
    git clone https://github.com/afreedsk/FLM_Assessment
-   cd frontlines-edutech
+   cd edutech-course-directory
    ```
 
 2. Install dependencies:
