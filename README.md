@@ -54,7 +54,7 @@ The application simulates a real-world Edutech platform where users can:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/frontlines-edutech.git
+   git clone https://github.com/afreedsk/FLM_Assessment
    cd frontlines-edutech
    ```
 
