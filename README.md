@@ -1,8 +1,3 @@
-**✅ Here is the perfect, clean and professional `README.md` file** for your GitHub repository.
-
-Just copy the entire content below and create a new file named **`README.md`** in the root of your project, then paste it.
-
-```markdown
 # FrontlinesEduTech - Edutech Course Directory
 
 A modern, fully responsive React.js frontend application for browsing, filtering, and managing online courses.
