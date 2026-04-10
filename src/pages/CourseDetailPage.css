@@ -1,0 +1,68 @@
+.detail-page {
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+.back-btn {
+  color: #00b4d8;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 1rem;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+}
+
+.detail-image {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.detail-title {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin: 1.5rem 0;
+}
+
+.enroll-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,180,216,0.15);
+  position: sticky;
+  top: 2rem;
+}
+
+.enroll-now-btn {
+  background: linear-gradient(90deg, #00b4d8, #0077a8);
+  color: white;
+  width: 100%;
+  padding: 18px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.syllabus {
+  list-style: none;
+  padding: 0;
+}
+
+.syllabus li {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+@media (max-width: 968px) {
+  .detail-grid { grid-template-columns: 1fr; }
+}

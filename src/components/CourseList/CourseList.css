@@ -1,0 +1,85 @@
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.loading-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #666;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #f0f0f0;
+  border-top: 6px solid #00b4d8;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 1.5rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.error-state {
+  text-align: center;
+  padding: 3rem;
+  background: #ffebeb;
+  color: #d32f2f;
+  border-radius: 12px;
+  font-size: 1.1rem;
+}
+
+.results-header {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.page-btn {
+  padding: 12px 24px;
+  background: white;
+  border: 2px solid #00b4d8;
+  color: #00b4d8;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.page-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.page-number {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid #e0e0e0;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.page-number.active {
+  background: #00b4d8;
+  color: white;
+  border-color: #00b4d8;
+}

@@ -1,0 +1,76 @@
+.enterprise-hero {
+  background: linear-gradient(135deg, #00b4d8, #005f8a);
+  color: white;
+  text-align: center;
+  padding: 5rem 2rem;
+  border-radius: 20px;
+}
+
+.enterprise-hero .btn-primary.large {
+  padding: 18px 40px;
+  font-size: 1.3rem;
+}
+
+.enterprise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 4rem 0;
+}
+
+.benefit-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.demo-form-section {
+  margin-top: 4rem;
+}
+
+.demo-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.demo-form input {
+  padding: 16px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  flex: 1;
+  min-width: 260px;
+} 
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 768px) {
+  .enterprise-hero {
+    padding: 3rem 1.5rem;
+  }
+  .enterprise-hero h1 {
+    font-size: 2.2rem;
+  }
+  .enterprise-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 3rem 0;
+  }
+  .demo-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .demo-form input {
+    min-width: auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .enterprise-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}

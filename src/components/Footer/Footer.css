@@ -1,0 +1,150 @@
+.footer {
+  background: #1a1a1a;
+  color: #ddd;
+  padding: 3.5rem 5% 2.5rem;
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.footer-left {
+  max-width: 340px;
+}
+
+.logo-footer {
+  font-size: 1.85rem;
+  color: #00b4d8;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.footer-left p {
+  opacity: 0.85;
+  line-height: 1.7;
+  font-size: 1.02rem;
+}
+
+/* Links Section */
+.footer-links {
+  display: flex;
+  gap: 4.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  min-width: 160px;
+}
+
+.footer-column h4 {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.footer-column a {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 1.02rem;
+}
+
+.footer-column a:hover {
+  color: #00b4d8;
+}
+
+/* Right Section */
+.footer-right {
+  text-align: right;
+  min-width: 240px;
+}
+
+.footer-right p {
+  opacity: 0.8;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1.4rem;
+  font-size: 1.7rem;
+  justify-content: flex-end;
+}
+
+.social-icons span {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.social-icons span:hover {
+  transform: scale(1.2);
+  color: #00b4d8;
+}
+
+/* ======================== MOBILE VIEW ======================== */
+@media (max-width: 768px) {
+  .footer {
+    padding: 2.5rem 6% 2rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 2.5rem;
+  }
+
+  .footer-left {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .footer-links {
+    gap: 2.5rem;
+    justify-content: center;
+  }
+
+  .footer-column {
+    min-width: auto;
+    text-align: center;
+  }
+
+  .footer-right {
+    text-align: center;
+    min-width: 100%;
+  }
+
+  .social-icons {
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+
+  .logo-footer {
+    font-size: 1.7rem;
+  }
+
+  .footer-left p {
+    font-size: 1rem;
+  }
+}
+
+/* Extra small mobile */
+@media (max-width: 480px) {
+  .footer-links {
+    gap: 2rem;
+  }
+  
+  .footer-column {
+    font-size: 0.98rem;
+  }
+}

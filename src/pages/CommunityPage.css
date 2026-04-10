@@ -1,0 +1,82 @@
+.page-header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.page-header h1 {
+  font-size: 2.8rem;
+  color: #00b4d8;
+  margin-bottom: 0.5rem;
+}
+
+.page-header p {
+  font-size: 1.2rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.community-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.community-post {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.community-post:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(0, 180, 216, 0.15);
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.join-btn {
+  background: #00b4d8;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.join-btn:hover {
+  background: #0099b8;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .page-header h1 {
+    font-size: 2.3rem;
+  }
+  .community-post {
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .community-post {
+    padding: 1.8rem;
+  }
+}

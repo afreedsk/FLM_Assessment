@@ -1,0 +1,115 @@
+.course-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.course-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 40px rgba(0, 180, 216, 0.2);
+}
+
+.course-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.category-badge {
+  display: inline-block;
+  background: #00b4d8;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 14px;
+  border-radius: 50px;
+  margin-bottom: 12px;
+  align-self: flex-start;
+}
+
+.course-title {
+  font-size: 1.25rem;
+  line-height: 1.3;
+  margin-bottom: 12px;
+  flex-grow: 1;
+}
+
+.instructor {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.label {
+  font-weight: 600;
+  color: #777;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.duration {
+  color: #00b4d8;
+  font-weight: 600;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.star {
+  color: #ddd;
+  font-size: 1.1rem;
+}
+
+.star.filled {
+  color: #ffc107;
+}
+
+.rating-number {
+  font-weight: 700;
+  margin-left: 6px;
+  color: #333;
+}
+
+.description {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.enroll-btn {
+  background: linear-gradient(90deg, #00b4d8, #0077a8);
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.enroll-btn:hover {
+  transform: scale(1.03);
+}
