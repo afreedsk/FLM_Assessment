@@ -2,8 +2,8 @@
 
 A modern, fully responsive React.js frontend application for browsing, filtering, and managing online courses.
 
-**Live Demo:** [https://your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)  
-*(Replace with your actual Vercel/Netlify link after deployment)*
+**Live Demo:** https://flmedutech.netlify.app/  
+
 
 ---
 
@@ -110,7 +110,7 @@ src/
 ## 🌐 Deployment
 
 Deployed on **Vercel**  
-**Live Link:** [https://your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)
+**Live Link:** https://flmedutech.netlify.app/
 
 ---
 
